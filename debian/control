@@ -12,7 +12,7 @@ Architecture: all
 Section: kde
 Priority: optional
 Depends: kde4-minimal (>= 1), extragear-plasma (>= 4:4.0.0), kdeadmin (>= 4:4.0.0), kdeartwork (>= 4:4.0.0), kdegraphics (>= 4:4.0.0), kdeedu (>= 4:4.0.0), kdegames (>= 4:4.0.0), kdemultimedia (>= 4:4.0.0), kdenetwork (>= 4:4.0.0), kdeutils (>= 4:4.0.0)
-Suggests: kde-l10n (>= 4:4.0.), xorg
+Suggests: kde-l10n (>= 4:4.0.0), xorg
 Description: the K Desktop Environment 4 
  KDE, the K Desktop Environment, is a free software project which aims to be 
  a powerful system for an easy-to-use desktop environment.
