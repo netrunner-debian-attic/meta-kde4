@@ -14,8 +14,8 @@ Priority: optional
 Depends: kde4-minimal (>= 1), extragear-plasma (>= 4:4.0.0), kdeadmin (>= 4:4.0.0), kdeartwork (>= 4:4.0.0), kdegraphics (>= 4:4.0.0), kdeedu (>= 4:4.0.0), kdegames (>= 4:4.0.0), kdemultimedia (>= 4:4.0.0), kdenetwork (>= 4:4.0.0), kdeutils (>= 4:4.0.0)
 Suggests: kde-l10n (>= 4:4.0.0), xorg
 Description: the K Desktop Environment 4 
- KDE, the K Desktop Environment, is a free software project which aims to be 
- a powerful system for an easy-to-use desktop environment.
+ KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
+ Free Software desktop platform and suite of applications.
  .
  This metapackage includes all the official modules released with KDE that
  are not specific to development and as well other KDE 4 applications that 
@@ -32,8 +32,8 @@ Depends: kdelibs5 (>= 4:4.0.0), kdepimlibs5 (>= 4:4.0.0), kdebase-runtime (>= 4:
  kdebase-workspace (>= 4:4.0.0), kdebase (>= 4:4.0.0)
 Suggests: kde-l10n (>= 4:4.0.0)
 Description: the K Desktop Environment 4, minimal applications
- KDE, the K Desktop Environment, is a free software project which aims to be 
- a powerful system for an easy-to-use desktop environment.
+ KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
+ Free Software desktop platform and suite of applications.
  .
  This metapackage includes the core official modules released with KDE. This
  includes just the basic desktop (browser, file manager, text editor, control
@@ -46,7 +46,7 @@ Section: kde
 Priority: optional
 Depends: kdelibs5 (>= 4:4.0.0), kdepimlibs5 (>= 4:4.0.0), kdebase-runtime (>= 4:4.0.0)
 Description: the KDE 4 development platform
- KDE, the K Desktop Environment, is a free software project which aims to be 
- a powerful system for an easy-to-use desktop environment.
+ KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
+ Free Software desktop platform and suite of applications.
  .
  This metapackage includes official KDE modules that are useful to developers.
