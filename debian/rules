@@ -37,12 +37,9 @@ install: build
 	# Add here commands to install the package into debian/kaider.
 
 
-# Build architecture-independent files here.
-binary-indep: build install
-# We have nothing to do by default.
-
-# Build architecture-dependent files here.
 binary-arch: build install
+
+binary-indep: build install
 	dh_testdir
 	dh_testroot
 	dh_installchangelogs 
