@@ -11,8 +11,11 @@ Package: kde4
 Architecture: all
 Section: kde
 Priority: optional
-Depends: kde4-minimal (>= 1), extragear-plasma (>= 4:4.0.0), kdeadmin (>= 4:4.0.0), kdeartwork (>= 4:4.0.0), kdegraphics (>= 4:4.0.0), kdeedu (>= 4:4.0.0), kdegames (>= 4:4.0.0), kdemultimedia (>= 4:4.0.0), kdenetwork (>= 4:4.0.0), kdeutils (>= 4:4.0.0)
-Suggests: kde-l10n (>= 4:4.0.0), xorg
+Depends: kde4-minimal (>= 1), kdeplasmoids (>= 4:4.0.80), kdeadmin (>= 4:4.0.80), 
+ kdeartwork (>= 4:4.0.80), kdegraphics (>= 4:4.0.80), kdeedu (>= 4:4.0.80), 
+ kdegames (>= 4:4.0.80), kdemultimedia (>= 4:4.0.80), kdenetwork (>= 4:4.0.80), 
+ kdeutils (>= 4:4.0.80), kdepim (>= 4:4.0.80)
+Suggests: kde-l10n (>= 4:4.0.80), xorg
 Description: the K Desktop Environment 4 
  KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
  Free Software desktop platform and suite of applications.
@@ -28,9 +31,9 @@ Package: kde4-minimal
 Architecture: all
 Section: kde
 Priority: optional
-Depends: kdelibs5 (>= 4:4.0.0), kdepimlibs5 (>= 4:4.0.0), kdebase-runtime (>= 4:4.0.0),
- kdebase-workspace (>= 4:4.0.0), kdebase (>= 4:4.0.0)
-Suggests: kde-l10n (>= 4:4.0.0)
+Depends: kdelibs5 (>= 4:4.0.80), kdepimlibs5 (>= 4:4.0.80), kdebase-runtime (>= 4:4.0.80),
+ kdebase-workspace (>= 4:4.0.80), kdebase (>= 4:4.0.80)
+Suggests: kde-l10n (>= 4:4.0.80)
 Description: the K Desktop Environment 4, minimal applications
  KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
  Free Software desktop platform and suite of applications.
@@ -44,7 +47,7 @@ Package: kde4-development
 Architecture: all
 Section: kde
 Priority: optional
-Depends: kdelibs5 (>= 4:4.0.0), kdepimlibs5 (>= 4:4.0.0), kdebase-runtime (>= 4:4.0.0)
+Depends: kdelibs5 (>= 4:4.0.80), kdepimlibs5 (>= 4:4.0.80), kdebase-runtime (>= 4:4.0.80)
 Description: the KDE 4 development platform
  KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
  Free Software desktop platform and suite of applications.
