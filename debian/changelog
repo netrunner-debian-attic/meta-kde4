@@ -2,9 +2,9 @@ meta-kde4 (2) UNRELEASED; urgency=low
 
   * Add kdepim.
   * Replace extragear-plasma with kdeplasmoids.
-  * Update depends to >= 4:4.0.80.
+  * Update depends to >= 4:4.0.82, but kde-l10n.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 10 Jun 2008 17:15:14 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 22 Jun 2008 12:26:54 +0200
 
 meta-kde4 (1) experimental; urgency=low
 
