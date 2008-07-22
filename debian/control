@@ -11,11 +11,11 @@ Package: kde4
 Architecture: all
 Section: kde
 Priority: optional
-Depends: kde4-minimal (>= 1), kdeplasmoids (>= 4:4.0.82), kdeadmin (>= 4:4.0.82), 
- kdeartwork (>= 4:4.0.82), kdegraphics (>= 4:4.0.82), kdeedu (>= 4:4.0.82), 
- kdegames (>= 4:4.0.82), kdemultimedia (>= 4:4.0.82), kdenetwork (>= 4:4.0.82), 
- kdeutils (>= 4:4.0.82), kdepim (>= 4:4.0.82)
-Suggests: kde-l10n (>= 4:4.0.80), xorg
+Depends: kde4-minimal (>= 1), kdeplasma-addons (>= 4:4.0.98), kdeadmin (>= 4:4.0.98), 
+ kdeartwork (>= 4:4.0.98), kdegraphics (>= 4:4.0.98), kdeedu (>= 4:4.0.98), 
+ kdegames (>= 4:4.0.98), kdemultimedia (>= 4:4.0.98), kdenetwork (>= 4:4.0.98), 
+ kdeutils (>= 4:4.0.98), kdepim (>= 4:4.0.98)
+Suggests: kde-l10n (>= 4:4.0.98), xorg
 Description: the K Desktop Environment 4 
  KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
  Free Software desktop platform and suite of applications.
@@ -31,9 +31,9 @@ Package: kde4-minimal
 Architecture: all
 Section: kde
 Priority: optional
-Depends: kdelibs5 (>= 4:4.0.82), kdepimlibs5 (>= 4:4.0.82), kdebase-runtime (>= 4:4.0.82),
- kdebase-workspace (>= 4:4.0.82), kdebase (>= 4:4.0.82)
-Suggests: kde-l10n (>= 4:4.0.80)
+Depends: kdelibs5 (>= 4:4.0.98), kdepimlibs5 (>= 4:4.0.98), kdebase-runtime (>= 4:4.0.98),
+ kdebase-workspace (>= 4:4.0.98), kdebase (>= 4:4.0.98)
+Suggests: kde-l10n (>= 4:4.0.98)
 Description: the K Desktop Environment 4, minimal applications
  KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
  Free Software desktop platform and suite of applications.
@@ -47,8 +47,8 @@ Package: kde4-development
 Architecture: all
 Section: kde
 Priority: optional
-Depends: kdelibs5 (>= 4:4.0.82), kdepimlibs5 (>= 4:4.0.82), kdebase-runtime (>= 4:4.0.82),
- kdelibs5-dev (>= 4:4.0.82), kdepimlibs5-dev (>= 4:4.0.82)
+Depends: kdelibs5 (>= 4:4.0.98), kdepimlibs5 (>= 4:4.0.98), kdebase-runtime (>= 4:4.0.98),
+ kdelibs5-dev (>= 4:4.0.98), kdepimlibs5-dev (>= 4:4.0.98)
 Description: the KDE 4 development platform
  KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
  Free Software desktop platform and suite of applications.

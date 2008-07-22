@@ -2,6 +2,8 @@ meta-kde4 (3) experimental; urgency=low
 
   * kde4-development depends on kdelibs5-dev
   and kdepimlibs5-dev (Closes: #484855)
+  * replace kdeplasmoids with kdeplasma-addons
+  * upgrade all versions to >=4:4.0.98
 
  -- Xavier Vello <xavier.vello@gmail.com>  Mon, 21 Jul 2008 17:19:18 +0200
 
