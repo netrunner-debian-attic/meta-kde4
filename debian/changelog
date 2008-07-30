@@ -1,11 +1,13 @@
 meta-kde4 (3) experimental; urgency=low
 
-  * kde4-development depends on kdelibs5-dev
-  and kdepimlibs5-dev (Closes: #484855)
-  * replace kdeplasmoids with kdeplasma-addons
-  * upgrade all versions to >=4:4.0.98
+  * Update all the depends to (>= 4.4.0).
+  * Bump Standars-Versions to 3.8.0.
+  * kdeplasmoids has been renamed, again, to kdeplasma-addons.
+  * Add not so widely used packages as Recommends: kdeaccessibility, kdesdk,
+    kdetoys and kdewebdev.
+  * Update Suggests adding a Suggests on koffice 2 alphas, koffice ( >= 1:1.9.96~).
 
- -- Xavier Vello <xavier.vello@gmail.com>  Mon, 21 Jul 2008 17:19:18 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 30 Jul 2008 08:55:41 +0200
 
 meta-kde4 (2) experimental; urgency=low
 
