@@ -1,4 +1,4 @@
-meta-kde4 (4~r0) unreleased; urgency=low
+meta-kde4 (4~r0) UNRELEASED; urgency=low
 
   * Update all the depends to (>= 4.1.85).
 
