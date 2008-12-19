@@ -1,6 +1,6 @@
-meta-kde4 (4~r0) experimental; urgency=low
+meta-kde4 (4~r0) unreleased; urgency=low
 
-  * Update all the depends to (>= 4.1.85)
+  * Update all the depends to (>= 4.1.85).
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 19 Dec 2008 01:02:23 +0100
 
