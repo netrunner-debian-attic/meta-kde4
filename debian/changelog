@@ -1,3 +1,9 @@
+meta-kde4 (4~r0) experimental; urgency=low
+
+  * Update all the depends to (>= 4.1.85)
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 19 Dec 2008 01:02:23 +0100
+
 meta-kde4 (3) experimental; urgency=low
 
   * Update all the depends to (>= 4.4.0).
