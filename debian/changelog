@@ -1,6 +1,6 @@
-meta-kde4 (4~r1) UNRELEASED; urgency=low
+meta-kde4 (4) experimental; urgency=low
 
-  * Update all the depends to (>= 4.1.96).
+  * Update all the depends to (>= 4.2.0).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Jan 2009 16:16:55 +0200
 
