@@ -1,3 +1,10 @@
+meta-kde4 (5) unstable; urgency=low
+
+  * Update all the depends to (>= 4.2.2).
+  * Add Suggests on kdebindings for kde4-development.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 06 Apr 2009 03:32:52 +0200
+
 meta-kde4 (4) experimental; urgency=low
 
   * Update all the depends to (>= 4.2.0).

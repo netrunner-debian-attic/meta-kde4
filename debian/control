@@ -11,13 +11,13 @@ Package: kde4
 Architecture: all
 Section: kde
 Priority: optional
-Depends: kde4-minimal (>= 1), kdeadmin (>= 4:4.2.0), 
- kdeartwork (>= 4:4.2.0), kdegraphics (>= 4:4.2.0), kdeedu (>= 4:4.2.0), 
- kdegames (>= 4:4.2.0), kdemultimedia (>= 4:4.2.0), kdenetwork (>= 4:4.2.0), 
- kdeutils (>= 4:4.2.0), kdepim (>= 4:4.2.0), kdeplasma-addons (>= 4:4.2.0)
-Recommends: kdeaccessibility (>= 4:4.2.0), kdesdk (>= 4:4.2.0), 
- kdetoys (>= 4:4.2.0), kdewebdev (>= 4:4.2.0) 
-Suggests: kde-l10n (>= 4:4.2.0), koffice ( >= 1:1.9.96~), xorg
+Depends: kde4-minimal (>= 1), kdeadmin (>= 4:4.2.2), 
+ kdeartwork (>= 4:4.2.2), kdegraphics (>= 4:4.2.2), kdeedu (>= 4:4.2.2), 
+ kdegames (>= 4:4.2.2), kdemultimedia (>= 4:4.2.2), kdenetwork (>= 4:4.2.2), 
+ kdeutils (>= 4:4.2.2), kdepim (>= 4:4.2.2), kdeplasma-addons (>= 4:4.2.2)
+Recommends: kdeaccessibility (>= 4:4.2.2), kdesdk (>= 4:4.2.2), 
+ kdetoys (>= 4:4.2.2), kdewebdev (>= 4:4.2.2) 
+Suggests: kde-l10n (>= 4:4.2.2), koffice ( >= 1:1.9.96~), xorg
 Description: the K Desktop Environment 4 
  KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
  Free Software desktop platform and suite of applications.
@@ -33,9 +33,9 @@ Package: kde4-minimal
 Architecture: all
 Section: kde
 Priority: optional
-Depends: kdelibs5 (>= 4:4.2.0), kdepimlibs5 (>= 4:4.2.0), kdebase-runtime (>= 4:4.2.0),
- kdebase-workspace (>= 4:4.2.0), kdebase (>= 4:4.2.0)
-Suggests: kde-l10n (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.2.2), kdepimlibs5 (>= 4:4.2.2), kdebase-runtime (>= 4:4.2.2),
+ kdebase-workspace (>= 4:4.2.2), kdebase (>= 4:4.2.2)
+Suggests: kde-l10n (>= 4:4.2.2)
 Description: the K Desktop Environment 4, minimal applications
  KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
  Free Software desktop platform and suite of applications.
@@ -49,7 +49,8 @@ Package: kde4-development
 Architecture: all
 Section: kde
 Priority: optional
-Depends: kdelibs5 (>= 4:4.2.0), kdepimlibs5 (>= 4:4.2.0), kdebase-runtime (>= 4:4.2.0)
+Depends: kdelibs5 (>= 4:4.2.2), kdepimlibs5 (>= 4:4.2.2), kdebase-runtime (>= 4:4.2.2)
+Suggests: kdebindings (>= 4:4.2.2)
 Description: the KDE 4 development platform
  KDE, the K Desktop Environment, is the powerful, integrated, and easy-to-use 
  Free Software desktop platform and suite of applications.
